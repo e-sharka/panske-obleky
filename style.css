@@ -59,3 +59,27 @@ h1.site-title span {
   stroke: #000;
   stroke-width: 2;
 }
+
+.color-box {
+  display: flex;
+}
+
+.product__colors {
+  width: 50%;
+  margin: 50px;
+  font-size: 14px;
+  /*margin: 0 auto;*/
+}
+
+.product {
+  display: flex;
+}
+
+.colors {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin-left: 250px;
+}
