@@ -48,6 +48,8 @@ h1.site-title span {
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
+  display: flex;
+  align-items: flex-end;
 }
 
 .product__image {
@@ -68,6 +70,8 @@ h1.site-title span {
   width: 50%;
   margin: 50px;
   font-size: 14px;
+  margin: 0 50px 0 50px;
+
   /*margin: 0 auto;*/
 }
 
@@ -80,6 +84,85 @@ h1.site-title span {
   justify-content: space-between;
 }
 
+.color {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.color-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.color__name-white {
+  margin: 0 40px 0 5px;
+}
+
+.color__name-black {
+  margin: 0 40px 0 20px;
+}
+
+.color__name-red {
+  margin: 0 30px 0 15px;
+}
+
+.color__name-blue {
+  margin: 0 25px 0 5px;
+  text-align: center;
+}
+
 button {
-  margin-left: 250px;
+  margin-left: 50px;
+  padding: 0 50px 0 50px;
+  background-color: #141518;
+  border: 2px solid white;
+  border-radius: 1rem;
+  color: white;
+  height: 40px;
+}
+
+.dot-white {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 30px 10px 0;
+  border: 2px solid white;
+  box-shadow: -0.5px -0.5px 2px 2px white;
+}
+
+.dot-black {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 30px 0 0;
+  border: 2px solid white;
+  box-shadow: -0.5px -0.5px 2px 2px white;
+}
+
+.dot-red {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 30px 0 0;
+  border: 2px solid white;
+  box-shadow: -0.5px -0.5px 2px 2px white;
+}
+
+.dot-blue {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 30px 0 0;
+  border: 2px solid white;
+  box-shadow: -0.5px -0.5px 2px 2px white;
 }
